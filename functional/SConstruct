@@ -1,0 +1,6 @@
+env = Environment(CXXFLAGS = ['-std=c++1z']) # Initialize the environment
+
+import os
+env['ENV']['TERM'] = os.environ['TERM'] # Add terminal information for color
+
+env.Program(LIBS='boost_unit_test_framework', target = 'test', source = ["test.cpp"])
