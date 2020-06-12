@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2017 Scortex SAS
- */
 template <class F>
 struct function_traits;
 // function pointer
