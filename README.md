@@ -1,2 +1,3 @@
 # lib-cpp
-Basic c++ library
+
+Small C++ Toolkit
